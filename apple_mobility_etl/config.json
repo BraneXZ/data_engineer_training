@@ -1,0 +1,17 @@
+{
+  "csv_source_link": "https://covid19-static.cdn-apple.com/covid19-mobility-data/2016HotfixDev6/v3/en-us/applemobilitytrends-",
+  "source_link": "https://covid19.apple.com/mobility",
+  "latest_source_link": "https://covid19-static.cdn-apple.com/covid19-mobility-data/2016HotfixDev6/v3/en-us/applemobilitytrends-2020-09-03.csv",
+  "csv_xpath": "//*[@id=\"download-card\"]/div[2]/a",
+  "save_path": ".",
+  "static_non_date_columns": [
+    "geo_type",
+    "region",
+    "transportation_type",
+    "alternative_name",
+    "sub-region",
+    "country"
+  ],
+  "test_extracted_csv": "tests/2020-09-02_test_data_extracted.csv",
+  "test_transformed_csv": "tests/2020-09-02_test_data_transformed.csv"
+}
